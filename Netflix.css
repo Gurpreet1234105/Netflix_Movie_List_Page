@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mukta&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0%;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+/* Navbar section */
+
+.nav-Logo img {
+    height: 60px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    gap: 20px;
+    background: transparent;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    padding-bottom: 2px;
+    background-color: linear-gradient(rgba(180, 164, 164, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.icon-area span {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: green;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+}
+
+
+
+/* background-img */
+/* Heading-section */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(background-img.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.description p {
+    flex-basis: 30%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: rgba(232, 220, 204, 0.815);
+    padding-top: 20px;
+    background-color: transparent;
+}
+
+.title-name h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 60px;
+    padding-bottom: 180px;
+    background-color: transparent;
+    
+}
+
+.button-cast button {
+    background-color: transparent;
+    padding: 2px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.two {
+    margin-left: 25px;
+}
+
+
+/* crousal */
+
+.owl-carousel .owl-nav button.owl-prev {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+
+
+}
+
+.crousal-parent {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    gap: 4px;
+    overflow-x: hidden;
+
+
+}
+
+.heading-1 h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+
+    margin-left: 20px;
+}
+
+.box img:hover {
+    transform: scale(1.1);
+}
+
+.box img {
+    transition: 1s;
+}
+
+.box img {
+    width: 100px;
+    height: 270px;
+    margin: 10px;
+    background-size: cover;
+
+}
+
+.item {
+    padding: 15px;
+}
+
+/* .video video{
+    width: 100%;
+    height: 80vh;
+} */
